@@ -1,0 +1,54 @@
+@font-face{
+	src: url(Fonts/JosefinSans/JosefinSans-VariableFont_wght.ttf);
+	font-family: Josefin
+}
+
+body{
+	background-color: #bfbfbf;
+	font-family: Josefin;
+	overflow: hidden; 
+}
+
+nav{
+	margin-top: 3%;
+}
+
+#title{
+	box-sizing: border-box;
+	margin-left: 50%;
+}
+
+.center-box{
+	box-sizing: border-box;
+	height: 40%;
+	margin: 10% auto;
+	width: 80%;
+}
+
+#face{
+	width: 40%;
+}
+
+.description{
+	box-sizing: border-box;
+	width: 60%;
+	float: right;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.description p{
+	font-size: 20px;
+}
+
+header{
+	text-align: center;
+	background-color: orange;
+	height: 15%;
+	font-size: 2rem;
+}
+
+nav a{
+	margin-left: 30px;
+	margin-right: auto;	
+}
